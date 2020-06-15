@@ -21,7 +21,7 @@
         "RequiresAssembler": false,
         "RequiresManufacturer": false,
         "RequiresRefinery": false,
-        "IsAlternateRecipe": true
+        "IsAlternateRecipe": false
     }, {
         "Alias": "Adaptive Control Unit",
         "Name": "Adaptive Control Unit",
