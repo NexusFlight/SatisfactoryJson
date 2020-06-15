@@ -1,21 +1,5 @@
 {
     "Items": [{
-        "Alias": null,
-        "Name": null,
-        "Building": "Assembler",
-        "Ingredients": [{
-            "ItemName": "Copper Sheet",
-            "Quantity": 30,
-            "ProductionRate": 56.25
-        }],
-        "ByProducts": null,
-        "Creates": 0,
-        "ProductionRate": 0,
-        "RequiresAssembler": false,
-        "RequiresManufacturer": false,
-        "RequiresRefinery": false,
-        "IsAlternateRecipe": false
-    }, {
         "Alias": "A.I. Limiter",
         "Name": "A.I. Limiter",
         "Building": "Assembler",
