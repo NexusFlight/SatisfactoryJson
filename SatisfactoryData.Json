@@ -1,8 +1,21 @@
-/** 
-* Paste one or more documents here
-*/
 {
     "Items": [{
+        "Alias": null,
+        "Name": null,
+        "Building": "Assembler",
+        "Ingredients": [{
+            "ItemName": "Copper Sheet",
+            "Quantity": 30,
+            "ProductionRate": 56.25
+        }],
+        "ByProducts": null,
+        "Creates": 0,
+        "ProductionRate": 0,
+        "RequiresAssembler": false,
+        "RequiresManufacturer": false,
+        "RequiresRefinery": false,
+        "IsAlternateRecipe": false
+    }, {
         "Alias": "A.I. Limiter",
         "Name": "A.I. Limiter",
         "Building": "Assembler",
@@ -1494,22 +1507,6 @@
         "RequiresManufacturer": false,
         "RequiresRefinery": false,
         "IsAlternateRecipe": true
-    }, {
-        "Alias": null,
-        "Name": null,
-        "Building": "Assembler",
-        "Ingredients": [{
-            "ItemName": "Copper Sheet",
-            "Quantity": 30,
-            "ProductionRate": 56.25
-        }],
-        "ByProducts": null,
-        "Creates": 0,
-        "ProductionRate": 0,
-        "RequiresAssembler": false,
-        "RequiresManufacturer": false,
-        "RequiresRefinery": false,
-        "IsAlternateRecipe": false
     }, {
         "Alias": "Heavy Modular Frame",
         "Name": "Heavy Modular Frame",
@@ -3338,6 +3335,26 @@
         "RequiresManufacturer": true,
         "RequiresRefinery": false,
         "IsAlternateRecipe": true
+    }, {
+        "Alias": "Smart Plating",
+        "Name": "Smart Plating",
+        "Building": null,
+        "Ingredients": [{
+            "ItemName": "Reinforced Iron Plate",
+            "Quantity": 1,
+            "ProductionRate": 0
+        }, {
+            "ItemName": "Rotor",
+            "Quantity": 1,
+            "ProductionRate": 0
+        }],
+        "ByProducts": [],
+        "Creates": 1,
+        "ProductionRate": 0,
+        "RequiresAssembler": true,
+        "RequiresManufacturer": false,
+        "RequiresRefinery": false,
+        "IsAlternateRecipe": false
     }, {
         "Alias": "Solid Biofuel",
         "Name": "Solid Biofuel",
